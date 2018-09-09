@@ -28,7 +28,7 @@ Read up on [Python Programming](https://www.codecademy.com/learn/learn-python). 
 ## Entry Two
 **Week 4 | 3rd September 2018**
 
-Continued on the [Python Programming](https://www.codecademy.com/learn/learn-python) Course Syallbus.
+Continued on the [Python Programming](https://www.codecademy.com/learn/learn-python) Course Syllabus.
 
 Read up on [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/).
 

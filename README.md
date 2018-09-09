@@ -3,7 +3,7 @@
   <h3 align="center">Reinforcement Learning for Tetris</h3>
   
   <p align="center">
-    Tan Sheng Hock | Supervised by [A/P Xavier Bresson](http://www.ntu.edu.sg/home/xbresson/)
+    Tan Sheng Hock | Supervised by <a href="http://www.ntu.edu.sg/home/xbresson/">A/P Xavier Bresson</a>
     <br>
   </p>
 </p>

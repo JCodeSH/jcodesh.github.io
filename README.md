@@ -12,6 +12,7 @@
 - [Introduction](#introduction)
 - [Entry One](#entry-one)
 - [Entry Two](#entry-two)
+- [Entry Three](#entry-three)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
@@ -21,7 +22,7 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 ## Entry One
 **Week 3 | 27th August 2018**
 
-First meeting and discussion with Prof. Bresson to understand about project objective and initial objectives and milestones for the project. Project Plan can be found [here](https://jcodesh.github.io/Final%20Year%20Project%20Plan.pdf).
+First meeting and discussion with Prof. Bresson to understand about project objective and initial objectives and milestones for the project. Project Plan can be found [here](https://jcodesh.github.io/Doucmentations/Final%20Year%20Project%20Plan%[20180910].pdf).
 
 Read up on [Python Programming](https://www.codecademy.com/learn/learn-python). Decided to implement this project in python because it is versatile and powerful and it is becoming the most popular programming language used by software engineers, analysts, data scientists, and machine learning engineers alike.
 
@@ -33,3 +34,11 @@ Continued on the [Python Programming](https://www.codecademy.com/learn/learn-pyt
 Read up on [Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/).
 
 Research on current implementation of building a Tetris game environment.
+
+
+## Entry Three
+**Weeek 5 | 10th September 2018**
+
+Second meeting and discussion with Prof. Bresson. Updated [Project Plan](https://jcodesh.github.io/Doucmentations/Final%20Year%20Project%20Plan%[20180910].pdf) with timeline.
+
+Will research and read up on current implementation of Tetris API. Usage of API will improved efficiency as there are already workable implementation of Tetris game environment.

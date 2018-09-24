@@ -1,17 +1,17 @@
 <p align="center">
-  <h1 align="center">Final Year Project (FYP)</h1>
-  <h3 align="center">Reinforcement Learning for Tetris</h3>
-  
-  <p align="center">
-    Tan Sheng Hock | Supervised by <a href="http://www.ntu.edu.sg/home/xbresson/">A/P Xavier Bresson</a>
-    <br>
-    <br>
-    <a href="https://github.com/JCodeSH/jcodesh.github.io">Github Repository</a>
-    ·
-    <a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Documentations</a>
-    ·
-    <a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Projects</a>
-  </p>
+	<h1 align="center">Final Year Project (FYP)</h1>
+	<h3 align="center">Reinforcement Learning for Tetris</h3>
+
+	<p align="center">
+		Tan Sheng Hock | Supervised by <a href="http://www.ntu.edu.sg/home/xbresson/">A/P Xavier Bresson</a>
+		<br>
+		<br>
+		<a href="https://github.com/JCodeSH/jcodesh.github.io">Github Repository</a>
+		·
+		<a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Documentations</a>
+		·
+		<a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Projects</a>
+	</p>
 </p>
 
 ## Table of Contents
@@ -20,11 +20,29 @@
 - [Entry Two](#entry-two)
 - [Entry Three](#entry-three)
 - [Entry Four](#entry-four)
+- [Entry Five](#entry-five)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
 
 **Reinforcement Learning** refers to goal-oriented algorithms, which learns how to maximize along a specific dimension over many steps; in this case, maximize the points won in a game of Tetris over many moves. Like how humans learn to achieve better score, through multiple interaction with the Tetris game environment, Reinforcement learning is just a computational approach of learning from action.
+
+## Entry Five
+**Week 7 | 24th September 2018**
+
+Third meeting and discussion with Prof. Bresson. Updated Prog. Bresson on current progress.
+
+Plans of implementating Tetris game environment using HTML, CSS and JavaScript. Allow ease of sharing/distribution of the Tetris game for collection of gameplay data.
+
+Using GitHub to host the Tetris game environment.
+
+<dl>
+	<dt>Suggestions obtained during meeting</dt>
+	<dd>· Collection of game data - Every environment state, actions performed and reward gain</dd>
+	<dd>· Collection of game data from both <b>Humans</d> and <b>Agents</b></dd>
+</dl>
+
+> Updated on 24th September 2018
 
 ## Entry Four
 **Week 6 | 17th September 2018**

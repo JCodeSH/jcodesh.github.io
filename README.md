@@ -1,17 +1,17 @@
 <p align="center">
-	<h1 align="center">Final Year Project (FYP)</h1>
-	<h3 align="center">Reinforcement Learning for Tetris</h3>
-
-	<p align="center">
-		Tan Sheng Hock | Supervised by <a href="http://www.ntu.edu.sg/home/xbresson/">A/P Xavier Bresson</a>
-		<br>
-		<br>
-		<a href="https://github.com/JCodeSH/jcodesh.github.io">Github Repository</a>
-		·
-		<a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Documentations</a>
-		·
-		<a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Projects</a>
-	</p>
+  <h1 align="center">Final Year Project (FYP)</h1>
+  <h3 align="center">Reinforcement Learning for Tetris</h3>
+  
+  <p align="center">
+    Tan Sheng Hock | Supervised by <a href="http://www.ntu.edu.sg/home/xbresson/">A/P Xavier Bresson</a>
+    <br>
+    <br>
+    <a href="https://github.com/JCodeSH/jcodesh.github.io">Github Repository</a>
+    ·
+    <a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Documentations">Documentations</a>
+    ·
+    <a href="https://github.com/JCodeSH/jcodesh.github.io/tree/master/Projects">Projects</a>
+  </p>
 </p>
 
 ## Table of Contents
@@ -37,9 +37,10 @@ Plans of implementating Tetris game environment using HTML, CSS and JavaScript. 
 Using GitHub to host the Tetris game environment.
 
 <dl>
-	<dt>Suggestions obtained during meeting</dt>
-	<dd>· Collection of game data - Every environment state, actions performed and reward gain</dd>
-	<dd>· Collection of game data from both <b>Humans</d> and <b>Agents</b></dd>
+  <dt>Suggestions Obtained During Meeting</dt>
+  <dd>Collection of game data - Every environment state, actions performed and reward gain</dd>
+  <dd>Collection of game data from both <b>Humans and Agents</b></dd>
+  <dd>Training of two agents - One learning from scratch and the other with boost from Human gameplay data</dd>
 </dl>
 
 > Updated on 24th September 2018

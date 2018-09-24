@@ -32,16 +32,12 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 
 Third meeting and discussion with Prof. Bresson. Updated Prog. Bresson on current progress.
 
-Plans of implementating Tetris game environment using HTML, CSS and JavaScript. Allow ease of sharing/distribution of the Tetris game for collection of gameplay data.
+Plans of implementating Tetris game environment using HTML, CSS and JavaScript. Allow ease of sharing/distribution of the Tetris game for collection of gameplay data. Using GitHub to host the Tetris game environment.
 
-Using GitHub to host the Tetris game environment.
-
-<dl>
-  <dt>Suggestions Obtained During Meeting</dt>
-  <dd>Collection of game data - Every environment state, actions performed and reward gain</dd>
-  <dd>Collection of game data from both <b>Humans and Agents</b></dd>
-  <dd>Training of two agents - One learning from scratch and the other with boost from Human gameplay data</dd>
-</dl>
+**_Suggestions Obtained During Meeting_**
+- Collection of game data - Every environment state, actions performed and reward gain
+- Collection of game data from both **Humans** and **Agents**
+- Training of two **Agents** - One learning from scratch and the other with boost from Human gameplay data
 
 > Updated on 24th September 2018
 

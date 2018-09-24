@@ -37,8 +37,16 @@ Research on current implementation of building a Tetris game environment.
 
 
 ## Entry Three
-**Weeek 5 | 10th September 2018**
+**Week 5 | 10th September 2018**
 
 Second meeting and discussion with Prof. Bresson. Updated [Project Plan](https://jcodesh.github.io/Documentations/Final%20Year%20Project%20Plan%20[20180910].pdf) with timeline.
 
 Will research and read up on current implementation of Tetris API. Usage of API will improved efficiency as there are already workable implementation of Tetris game environment.
+
+
+## Entry Four
+**Week 6 | 17th September 2018**
+
+Followed a tutorial on building a [grid](http://slavchoslavchev.com/tutorials/building-a-grid-matrix-in-javascript/) (matrix) in JavaScript. In this tutorial, a grid (a.k.a. matrix) using JavaScript is implemented. This grid will be the based when building the Tetris game environment. Check out the grid [here](https://jcodesh.github.io/Projects/Grid%Matrix/index.html).
+
+Continued on a separate tutorial to build the Tetris game environment - Implementing the Tetris Shape, Adding movement and rotation to the Tetris Shape.

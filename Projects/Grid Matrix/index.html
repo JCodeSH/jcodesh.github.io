@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tetris</title>
+	<style>
+	.grid {
+		border: 1px solid #ddd;
+		display: inline-block;
+		padding: 1px;
+	}
+	.row {
+		margin: 0;
+	}
+	.cell {
+		border: 1px solid #ddd;
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		margin: 1px;
+		vertical-align: top;
+	}
+	</style>
+</head>
+<body>
+
+<div class="grid"></div>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="grid.js"></script>
+<script>
+(function() {
+    "use strict";
+
+    var grid = new Grid({
+        rows: 25,
+        cols: 13,
+        render: {
+            placeholder: ".grid"
+        }
+    });
+    grid.getCellAt(2, 1).$el.css('background', 'red');
+}());
+</script>
+
+</body>
+</html>

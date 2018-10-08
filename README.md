@@ -21,11 +21,25 @@
 - [Entry Three](#entry-three)
 - [Entry Four](#entry-four)
 - [Entry Five](#entry-five)
+- [Entry_Six](#entry-six)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
 
 **Reinforcement Learning** refers to goal-oriented algorithms, which learns how to maximize along a specific dimension over many steps; in this case, maximize the points won in a game of Tetris over many moves. Like how humans learn to achieve better score, through multiple interaction with the Tetris game environment, Reinforcement learning is just a computational approach of learning from action.
+
+## Entry Six
+**Recess Week | 1st October 2018**
+
+> Progress on hold during Recess Week due to CZ3004 Multidisciplinary Design Project.
+
+Attempted to continue research on other possible Tetris game environment as there is issues with the previous implementation.
+
+**_Possible Tetris Game Environment_**
+- Made using [Text Game Maker JS](https://www.a-mean-blog.com/en/blog/Text-Game-Maker-JS/Games/Tetris)
+- Made using [Blockrain JS](http://aerolab.github.io/blockrain.js/)
+
+> Updated on 8th October 2018
 
 ## Entry Five
 **Week 7 | 24th September 2018**

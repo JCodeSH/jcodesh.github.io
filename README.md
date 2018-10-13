@@ -32,7 +32,7 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 ## Entry Seven
 **Week 8 | 8th October 2018**
 
-Fourth meeting and discussion with PRof. Bresson. Updated Prof. Bresson on current progress.
+Fourth meeting and discussion with Prof. Bresson. Updated Prof. Bresson on current progress.
 
 Verified how much game data to collect per game. Collection of every state and action starting from initial state till end state. To also include "no action" - when the pieces continuing to drop even when the player perform no action.
 

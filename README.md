@@ -21,12 +21,21 @@
 - [Entry Three](#entry-three)
 - [Entry Four](#entry-four)
 - [Entry Five](#entry-five)
-- [Entry_Six](#entry-six)
+- [Entry Six](#entry-six)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
 
 **Reinforcement Learning** refers to goal-oriented algorithms, which learns how to maximize along a specific dimension over many steps; in this case, maximize the points won in a game of Tetris over many moves. Like how humans learn to achieve better score, through multiple interaction with the Tetris game environment, Reinforcement learning is just a computational approach of learning from action.
+
+## Entry Seven
+**Week 8 | 8th October 2018**
+
+Fourth meeting and discussion with PRof. Bresson. Updated Prof. Bresson on current progress.
+
+Verified how much game data to collect per game. Collection of every state and action starting from initial state till end state. To also include "no action" - when the pieces continuing to drop even when the player perform no action.
+
+> Updated on 13th October 2018
 
 ## Entry Six
 **Recess Week | 1st October 2018**
@@ -44,7 +53,7 @@ Attempted to continue research on other possible Tetris game environment as ther
 ## Entry Five
 **Week 7 | 24th September 2018**
 
-Third meeting and discussion with Prof. Bresson. Updated Prog. Bresson on current progress.
+Third meeting and discussion with Prof. Bresson. Updated Prof. Bresson on current progress.
 
 Plans of implementating Tetris game environment using HTML, CSS and JavaScript. Allow ease of sharing/distribution of the Tetris game for collection of gameplay data. Using GitHub to host the Tetris game environment.
 

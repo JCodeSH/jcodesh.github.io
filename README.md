@@ -22,6 +22,7 @@
 - [Entry Four](#entry-four)
 - [Entry Five](#entry-five)
 - [Entry Six](#entry-six)
+- [Entry Seven](#entry-seven)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.

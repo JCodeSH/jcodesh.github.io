@@ -33,7 +33,7 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 ## Entry Eight
 **Week 9 | 15th October 2018**
 
-Uploaded the initial clone of Tetris Game Environment [here](https://jcodesh.github.io/Projects/Tetris%20Clone/index.html).
+Uploaded the initial clone of Tetris Game Environment [here](http://jcodesh.github.io/Projects/Tetris%20Clone/index.html).
 
 Will be continuing to modify and fine-tune the sourced tetris game to better fit the requirement.
 

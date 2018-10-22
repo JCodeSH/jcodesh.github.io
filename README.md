@@ -23,11 +23,23 @@
 - [Entry Five](#entry-five)
 - [Entry Six](#entry-six)
 - [Entry Seven](#entry-seven)
+- [Entry Eight](#entry-eight)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
 
 **Reinforcement Learning** refers to goal-oriented algorithms, which learns how to maximize along a specific dimension over many steps; in this case, maximize the points won in a game of Tetris over many moves. Like how humans learn to achieve better score, through multiple interaction with the Tetris game environment, Reinforcement learning is just a computational approach of learning from action.
+
+## Entry Eight
+**Week 9 | 15th October 2018**
+
+Uploaded the initial clone of Tetris Game Environment [here](https://jcodesh.github.io/Projects/Tetris%20Clone/index.html).
+
+Will be continuing to modify and fine-tune the sourced tetris game to better fit the requirement.
+
+The Tetris game is sourced from [Text Game Maker JS](https://www.a-mean-blog.com/en/blog/Text-Game-Maker-JS/Games/Tetris)
+
+> Updated on 22nd October 2018
 
 ## Entry Seven
 **Week 8 | 8th October 2018**

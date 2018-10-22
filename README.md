@@ -33,7 +33,7 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 ## Entry Eight
 **Week 9 | 15th October 2018**
 
-Uploaded the initial clone of Tetris Game Environment [here](https://jcodesh.github.io/Projects/Tetris%20Clone/index.html).
+Uploaded the initial clone of Tetris Game Environment [here](https://jcodesh.github.io/Projects/Tetris_Clone/index.html).
 
 Will be continuing to modify and fine-tune the sourced tetris game to better fit the requirement.
 
@@ -80,7 +80,7 @@ Plans of implementating Tetris game environment using HTML, CSS and JavaScript. 
 ## Entry Four
 **Week 6 | 17th September 2018**
 
-Followed a tutorial on building a [grid](http://slavchoslavchev.com/tutorials/building-a-grid-matrix-in-javascript/) (matrix) in JavaScript. In this tutorial, a grid (a.k.a. matrix) using JavaScript is implemented. This grid will be the based when building the Tetris game environment. Check out the grid [here](https://jcodesh.github.io/Projects/Grid%20Matrix/index.html).
+Followed a tutorial on building a [grid](http://slavchoslavchev.com/tutorials/building-a-grid-matrix-in-javascript/) (matrix) in JavaScript. In this tutorial, a grid (a.k.a. matrix) using JavaScript is implemented. This grid will be the based when building the Tetris game environment. Check out the grid [here](https://jcodesh.github.io/Projects/Grid_Matrix/index.html).
 
 Continued on a separate tutorial to build the Tetris game environment - Implementing the Tetris Shape, Adding movement and rotation to the Tetris Shape.
 

@@ -37,7 +37,7 @@ The goal of this project is to develop an agent that can play Tetris. The standa
 
 Able to deploy the initial clone of Tetris Game Environment [here](https://jcodesh.github.io/Projects/Tetris%20Clone/index.html).
 
-Continued to tweak and modify the Tetris Game Environment - Adding of action logger and modifying of rules etc.
+Continued to tweak and modify the Tetris Game Environment - Plans to add of action logger, saving of states to database, and modifying of rules etc.
 
 > Updated on 5th November 2018
 

@@ -26,11 +26,29 @@
 - [Entry Eight](#entry-eight)
 - [Entry Nine](#entry-nine)
 - [Entry Ten](#entry-ten)
+- [Entry Eleven](#entry-eleven)
+- [Entry Twelve](#entry-twelve)
 
 ## Introduction
 The goal of this project is to develop an agent that can play Tetris. The standard **Tetris** is a stochastic, open-end board game.
 
 **Reinforcement Learning** refers to goal-oriented algorithms, which learns how to maximize along a specific dimension over many steps; in this case, maximize the points won in a game of Tetris over many moves. Like how humans learn to achieve better score, through multiple interaction with the Tetris game environment, Reinforcement learning is just a computational approach of learning from action.
+
+## Entry Twelve
+**Week 13 | 12th November 2018**
+
+> Hiatus from the project due to coursework and final examinations. Will resume progress after final examinations.
+
+> Updated on 20th November 2018
+
+## Entry Eleven
+**Week 12 | 5th November 2018**
+
+Sixth meeting and dicussion with Prof. Bresson. Updated Prof. Bresson on current progress.
+
+Clarified on how to define a reward functions for reinforcement learning models. Learnt that the reward/penalty value were mostly based off the points and rules of the Tetris game and could be self-defined. Additional reward/penalty can be added to see how the agent learn and play the game in its unique ways.
+
+> Updated on 20th November 2018
 
 ## Entry Ten
 **Week 11 | 29th October 2018**

@@ -5,33 +5,33 @@ var TMS = new TM.ScreenManager(screenSetting, charGroups),
     TMD = new TM.DebugManager(debugSetting);
 
 var MAIN = {
-  programs: {
-    intro: new Program_Intro(),
-    game: new Program_Game(),
-  },
-  data: {
-    scores: {
-      lastScore: 0,
-      bestScore: 0,
-    }
-  },
-  init: function(){
-    TMS.cursor.hide();
-    this.inactivate();
-    this.programs.intro.init();
-  },
-  inactivate: function(){
-    for(var i in this.programs){
-      var program = this.programs[i];
-      program.inactivate();
-    }
-  },
-  changeProgram: function(program){
-    this.inactivate();
-    program.init();
-  },
+    programs: {
+        intro: new Program_Intro(),
+        game: new Program_Game(),
+    },
+    data: {
+        scores: {
+            lastScore: 0,
+            bestScore: 0,
+        }
+    },
+    init: function () {
+        TMS.cursor.hide();
+        this.inactivate();
+        this.programs.intro.init();
+    },
+    inactivate: function () {
+        for (var i in this.programs) {
+            var program = this.programs[i];
+            program.inactivate();
+        }
+    },
+    changeProgram: function (program) {
+        this.inactivate();
+        program.init();
+    },
 };
 
-TMS.onReady(function(){
-  MAIN.init();
+TMS.onReady(function () {
+    MAIN.init();
 });

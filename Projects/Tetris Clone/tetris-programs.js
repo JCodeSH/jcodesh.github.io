@@ -31,13 +31,12 @@ Program_Intro.prototype._calculate = function () {
 Program_Intro.prototype._draw = function () {
 };
 Program_Intro.prototype._timeline = function (loopCount) {
-    if (loopCount == 10) TMS.insertTextAt(this.data.x, this.data.y + 0, "■□□□■■■□□■■□□■■", "#fff");
-    if (loopCount == 20) TMS.insertTextAt(this.data.x, this.data.y + 1, "■■■□ ■□□  ■■□□■", "#eee");
-    if (loopCount == 30) TMS.insertTextAt(this.data.x, this.data.y + 2, "□□□■       □■ ■", "#ddd");
-    if (loopCount == 40) TMS.insertTextAt(this.data.x, this.data.y + 3, "■■□■■ □ ■ □□■□□", "#ccc");
-    if (loopCount == 50) TMS.insertTextAt(this.data.x, this.data.y + 4, "■■ ■□□□■■■□■■□□", "#bbb");
-    //if (loopCount == 60) TMS.insertTextAt(this.data.x + 11, this.data.y + 5, "www.A-MEAN-Blog.com", "#aaa");
-    if (loopCount == 70) {
+    if (loopCount == 1) TMS.insertTextAt(this.data.x, this.data.y + 0, "■□□□■■■□□■■□□■■", "#fff");
+    if (loopCount == 2) TMS.insertTextAt(this.data.x, this.data.y + 1, "■■■□ ■□□  ■■□□■", "#eee");
+    if (loopCount == 3) TMS.insertTextAt(this.data.x, this.data.y + 2, "□□□■       □■ ■", "#ddd");
+    if (loopCount == 4) TMS.insertTextAt(this.data.x, this.data.y + 3, "■■□■■ □ ■ □□■□□", "#ccc");
+    if (loopCount == 5) TMS.insertTextAt(this.data.x, this.data.y + 4, "■■ ■□□□■■■□■■□□", "#bbb");
+    if (loopCount == 6) {
         this.objects.stars.push(new Star(500, {
             x: this.data.x + 8,
             y: this.data.y + 1,
@@ -49,8 +48,8 @@ Program_Intro.prototype._timeline = function (loopCount) {
             refContainer: this.objects.stars
         }));
     }
-    if (loopCount == 80) TMS.insertTextAt(this.data.x + 10, this.data.y + 2, "T E T R I S", "#fff");
-    if (loopCount == 90) {
+    if (loopCount == 7) TMS.insertTextAt(this.data.x + 10, this.data.y + 2, "T E T R I S", "#fff");
+    if (loopCount == 8) {
         TMS.cursor.move(this.data.x, this.data.y + 7);
         TMS.insertText("Please Enter Any Key to Start..\n\n", "#fff");
         TMS.insertText("  △   : Shift\n", "#fff");

@@ -322,7 +322,7 @@ Tetris.BLOCKS = [
     [[[0, 0, 0, 0], [0, 1, 1, 0], [1, 1, 0, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [1, 0, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 1, 1, 0], [1, 1, 0, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [1, 0, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0]]],
     [[[0, 0, 0, 0], [0, 0, 1, 0], [1, 1, 1, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [1, 1, 1, 0], [1, 0, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [0, 1, 0, 0], [0, 1, 1, 0]]],
     [[[0, 0, 0, 0], [1, 0, 0, 0], [1, 1, 1, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [0, 1, 0, 0], [1, 1, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [1, 1, 1, 0], [0, 0, 1, 0]], [[0, 0, 0, 0], [0, 1, 1, 0], [0, 1, 0, 0], [0, 1, 0, 0]]],
-    [[[0, 0, 0, 0], [0, 1, 0, 0], [1, 1, 1, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [0, 1, 1, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0]]]
+    [[[0, 0, 0, 0], [0, 1, 0, 0], [1, 1, 1, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [1, 1, 0, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0]], [[0, 0, 0, 0], [0, 1, 0, 0], [0, 1, 1, 0], [0, 1, 0, 0]]]
 ];
 
 // TM.ILoopObject functions inheritance
@@ -449,8 +449,8 @@ Tetris.prototype.processMessage = function () {
     if (y < this.data.y) {
         y = this.data.y;
     }
-    TMS.insertTextAt(x, y, message.text1);
-    TMS.insertTextAt(x, y + 1, message.text2);
+    TMS.insertTextAt(46, 11, message.text1);
+    TMS.insertTextAt(46, 11 + 1, message.text2);
     if (++message.count > message.COUNT_MAX) {
         message.count = 0;
         message.flag = false;
@@ -623,7 +623,7 @@ Tetris_ActiveBlock.prototype.constructor = Tetris_ActiveBlock;
 
 // TM.IObject functions implementation
 Tetris_ActiveBlock.prototype._init = function () {
-    this.data.x = Math.floor(Tetris.COL_NUM / 2) - 1;
+    this.data.x = Math.floor(Tetris.COL_NUM / 2) - 2;
     this.data.y = 0;
     this.data.rotation = 0;
     this.data.autoDrop.count = 0;
@@ -764,3 +764,18 @@ Tetris_ActiveBlock.prototype.processLanding = function (dataArray) {
     }
     return landingFinished;
 };
+
+// export as JSON
+"use strict";
+
+function exportToJsonFile(jsonData) {
+    let dataStr = JSON.stringify(jsonData);
+    let dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+
+    let exportFileDefaultName = 'data.json';
+
+    let linkElement = document.createElement('a');
+    linkElement.setAttribute('href', dataUri);
+    linkElement.setAttribute('download', exportFileDefaultName);
+    linkElement.click();
+}

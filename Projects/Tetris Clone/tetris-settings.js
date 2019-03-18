@@ -26,7 +26,8 @@ var debugSetting = {
 var GAME_SETTINGS = {
     COL_NUM: 12,
     ROW_NUM: 24,
-    SPEED_LOOKUP: [80, 60, 40, 20, 10, 8, 4, 2, 1, 0],
+    //SPEED_LOOKUP: [80, 60, 40, 20, 10, 8, 4, 2, 1, 0],
+    SPEED_LOOKUP: [0],
     KEYSET: {
         QUIT: 27, // esc key
         PAUSE: 80, // 'p';

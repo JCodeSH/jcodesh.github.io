@@ -13,6 +13,7 @@ var MAIN = {
         scores: {
             lastScore: 0,
             bestScore: 0,
+            currentScore: 0,
         }
     },
     init: function () {

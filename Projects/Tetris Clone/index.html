@@ -4,15 +4,21 @@
     <meta charset="utf-8">
     <title>Tetris Clone</title>
     <style>
-        #tm-canvas, #tm-debug-output {
-            position: fixed;
+        #tm-canvas {
+            float: left;
+        }
+        #tm-debug-output {
+            float: right;
+            margin-left: 50px;
         }
     </style>
     <script type="text/javascript" src="text-game-maker-1.0.1.min.js"></script>
 </head>
 <body>
-<canvas id="tm-canvas"></canvas>
-<div style="position: fixed; left: 50%;" id="tm-debug-output"></div>
+<div  style="display: flex">
+    <canvas id="tm-canvas"></canvas>
+    <div id="tm-debug-output"></div>
+</div>
 
 <script type="text/javascript" src="tetris-settings.js"></script>
 <script type="text/javascript" src="tetris-objects.js"></script>

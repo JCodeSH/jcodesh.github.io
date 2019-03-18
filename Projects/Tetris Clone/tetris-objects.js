@@ -246,6 +246,7 @@ Status.prototype.drawGoal = function (num) {
 };
 Status.prototype.drawCurrentScore = function (score) {
     if (score) this.data.currentScore = score;
+    MAIN.data.scores.currentScore = score;
     TMS.insertTextAt(this.data.x + 7, this.data.y + 9, Status.convertScore(this.data.currentScore));
 };
 Status.prototype.drawLastScore = function (score) {

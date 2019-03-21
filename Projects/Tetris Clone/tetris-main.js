@@ -15,6 +15,8 @@ var MAIN = {
             bestScore: 0,
             currentScore: 0,
             nextPiece: -1,
+            isGameOver: 0,
+            isPause: 0,
         }
     },
     init: function () {

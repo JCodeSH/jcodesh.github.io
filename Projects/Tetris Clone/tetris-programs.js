@@ -122,10 +122,12 @@ Program_Game.prototype._getInput = function () {
             this.objects.status.refresh();
             this.objects.player1Game.draw();
             this.objects.player1Game.interval.init();
+            MAIN.data.scores.isPause = 0;
         } else {
             this.objects.player1Game.interval.inactivate();
             TMS.fillScreen(" ", null, "rgba(0,0,0,0.4)");
             this.objects.pausePopup = new PausePopup(800, {x: 15, y: 11, bgColor: "#444"});
+            MAIN.data.scores.isPause = 1;
         }
         TMI.keyboard.clearKey();
     }

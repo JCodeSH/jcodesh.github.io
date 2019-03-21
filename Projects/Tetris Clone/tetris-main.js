@@ -14,6 +14,7 @@ var MAIN = {
             lastScore: 0,
             bestScore: 0,
             currentScore: 0,
+            nextPiece: -1,
         }
     },
     init: function () {

@@ -214,6 +214,7 @@ Status.prototype.drawFrame = function (remove) {
 Status.prototype.drawNextBlock = function (blockType) {
     if (blockType || blockType === 0) this.data.nextBlockType = blockType;
     var nextBlockType = this.data.nextBlockType;
+    MAIN.data.scores.nextPiece = this.data.nextBlockType;
     var xOffset = (nextBlockType === 0 || nextBlockType === 1) ? 0 : 1;
     var color = Tetris.COLORSET.BLOCKS[nextBlockType];
     var xAdj = this.data.x + 2 + xOffset;

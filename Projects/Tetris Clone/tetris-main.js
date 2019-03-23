@@ -31,6 +31,7 @@ var MAIN = {
         }
     },
     changeProgram: function (program) {
+        MAIN.data.scores.isGameOver = 0;
         this.inactivate();
         program.init();
     },

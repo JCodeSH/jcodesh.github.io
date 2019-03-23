@@ -587,7 +587,6 @@ Tetris.prototype.gameOver = function () {
         }
         if (--i < 0) {
             _self.data.isGameOver = true;
-            MAIN.data.scores.isGameOver = 1;
             clearInterval(interval);
         }
     }, 100);

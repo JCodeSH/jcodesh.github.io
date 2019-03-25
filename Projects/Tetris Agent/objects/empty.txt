@@ -1,0 +1,1 @@
+Empty text file to create folder for agent to store objects
